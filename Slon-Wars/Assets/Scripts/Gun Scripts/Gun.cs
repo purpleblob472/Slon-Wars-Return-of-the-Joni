@@ -14,7 +14,7 @@ public class Gun : MonoBehaviour
     public float bulletSpeed = 5;
     public float numberOfBullets = 1;
 
-    private bool canFire = true;
+    private bool canFire;
 
     private Rigidbody2D body;
 
@@ -24,6 +24,11 @@ public class Gun : MonoBehaviour
 
         if (!bulletSpawn)
             bulletSpawn = transform;
+
+        if (!isEnemy)
+            canFire = true;
+        else
+            StartCoroutine(canFireDelay());
     }
 
     //function to call from other scripts
@@ -31,6 +36,14 @@ public class Gun : MonoBehaviour
     {
         if (canFire)
             StartCoroutine(fireRateTimer());
+    }
+
+    //stops enemies from firing on spawn
+    private IEnumerator canFireDelay()
+    {
+        canFire = false;
+        yield return new WaitForSeconds(fireRate);
+        canFire = true;
     }
 
     //fire rate control

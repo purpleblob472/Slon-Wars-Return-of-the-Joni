@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D body;
     private Vector2 shootersVelocity;
 
+    //Initiliser for gun script to pass values
     public void SetValues(float speed, bool isPlayer, Vector2 shootersVelocity, float timeAlive)
     {
         body = GetComponent<Rigidbody2D>();
@@ -24,6 +25,7 @@ public class Bullet : MonoBehaviour
         }
     }
 
+    //Bullet range via time - time runs out destroy bullet
     private IEnumerator DistanceControl(float timeAlive)
     {
         yield return new WaitForSeconds(timeAlive);
