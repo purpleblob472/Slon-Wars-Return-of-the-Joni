@@ -13,6 +13,7 @@ public class Gun : MonoBehaviour
     public float accuracy = 180;
     public float bulletSpeed = 5;
     public float numberOfBullets = 1;
+    public int damage = 1;
 
     private bool canFire;
     private int bulletRotationOffset = 0;
@@ -73,7 +74,7 @@ public class Gun : MonoBehaviour
                 currentBullet.transform.eulerAngles.y,
                 currentBullet.transform.eulerAngles.z + Random.Range(-bulletRotationModifier, bulletRotationModifier) - bulletRotationOffset
             );
-            currentBullet.GetComponent<Bullet>().SetValues(bulletSpeed, !isEnemy, body.velocity, range);
+            currentBullet.GetComponent<Bullet>().SetValues(bulletSpeed, !isEnemy, body.velocity, range, damage);
         }
     }
 }

@@ -8,14 +8,17 @@ public class Bullet : MonoBehaviour
     private bool isPlayer;
     private Rigidbody2D body;
     private Vector2 shootersVelocity;
+    [HideInInspector]
+    public int damage = 1;
 
     //Initiliser for gun script to pass values
-    public void SetValues(float speed, bool isPlayer, Vector2 shootersVelocity, float timeAlive)
+    public void SetValues(float speed, bool isPlayer, Vector2 shootersVelocity, float timeAlive, int damage)
     {
         body = GetComponent<Rigidbody2D>();
         this.speed = speed;
         this.isPlayer = isPlayer;
         this.shootersVelocity = shootersVelocity;
+        this.damage = damage;
         StartCoroutine(DistanceControl(timeAlive));
 
         if (!isPlayer)
@@ -34,11 +37,11 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && !isPlayer)
-            Destroy(gameObject);
+        //if (collision.CompareTag("Player") && !isPlayer)
+        //    Destroy(gameObject);
 
-        if (collision.CompareTag("Enemy") && isPlayer)
-            Destroy(gameObject);
+        //if (collision.CompareTag("Enemy") && isPlayer)
+        //    Destroy(gameObject);
 
         if (collision.CompareTag("Wall"))
             Destroy(gameObject);
