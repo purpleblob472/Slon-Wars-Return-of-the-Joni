@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
     public float numberOfBullets = 1;
 
     private bool canFire;
-
+    private int bulletRotationOffset = 0;
     private Rigidbody2D body;
 
     void Start()
@@ -26,9 +26,14 @@ public class Gun : MonoBehaviour
             bulletSpawn = transform;
 
         if (!isEnemy)
+        {
             canFire = true;
+        }
         else
+        {
+            bulletRotationOffset = 90;
             StartCoroutine(canFireDelay());
+        }
     }
 
     //function to call from other scripts
@@ -66,7 +71,7 @@ public class Gun : MonoBehaviour
             currentBullet.transform.eulerAngles = new Vector3(
                 currentBullet.transform.eulerAngles.x,
                 currentBullet.transform.eulerAngles.y,
-                currentBullet.transform.eulerAngles.z + Random.Range(-bulletRotationModifier, bulletRotationModifier) - 90
+                currentBullet.transform.eulerAngles.z + Random.Range(-bulletRotationModifier, bulletRotationModifier) - bulletRotationOffset
             );
             currentBullet.GetComponent<Bullet>().SetValues(bulletSpeed, !isEnemy, body.velocity, range);
         }
