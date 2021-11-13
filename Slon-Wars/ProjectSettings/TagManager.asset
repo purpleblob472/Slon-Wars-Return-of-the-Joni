@@ -8,7 +8,6 @@ TagManager:
   - EnemyBullet
   - Enemy
   - Wall
-  - Door
   layers:
   - Default
   - TransparentFX

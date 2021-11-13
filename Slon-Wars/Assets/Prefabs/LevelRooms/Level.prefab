@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 296519974002173268}
   - component: {fileID: 7540076825100186841}
-  - component: {fileID: 2080193516}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -42,21 +41,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a06caf04cb64bd344873e58b6752dd3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxRooms: 25
-  targetRooms: 0
-  gridSize: 9
-  roomObj: {fileID: 2967998152374244570, guid: 640de77d73268484a858934585cd25df, type: 3}
---- !u!114 &2080193516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334089503462683147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f39777c7827dc045aa40693ff558732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
