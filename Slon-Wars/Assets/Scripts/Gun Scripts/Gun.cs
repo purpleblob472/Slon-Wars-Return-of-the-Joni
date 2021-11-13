@@ -9,6 +9,7 @@ public class Gun : MonoBehaviour
 
     public bool isEnemy;
     public float fireRate = 2;
+    public float minfireRate = 0.2f;
     public float range = 2;
     public float accuracy = 180;
     public float bulletSpeed = 5;
@@ -48,6 +49,7 @@ public class Gun : MonoBehaviour
     private IEnumerator canFireDelay()
     {
         canFire = false;
+        fireRate = (fireRate <= minfireRate) ? minfireRate : fireRate;
         yield return new WaitForSeconds(fireRate);
         canFire = true;
     }
@@ -57,6 +59,7 @@ public class Gun : MonoBehaviour
     {
         FireBullets();
         canFire = false;
+        fireRate = (fireRate <= minfireRate) ? minfireRate : fireRate;
         yield return new WaitForSeconds(fireRate);
         canFire = true;
     }
@@ -64,6 +67,7 @@ public class Gun : MonoBehaviour
     //handle spawning bullets and assigning bullet properties
     private void FireBullets()
     {
+        accuracy = (accuracy <= 0) ? 0 : accuracy;
         float bulletRotationModifier = accuracy > 180 ? 0 : (180 - accuracy);
 
         for (int i = 0; i < numberOfBullets; i++)

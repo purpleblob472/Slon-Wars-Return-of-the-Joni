@@ -6,7 +6,9 @@ public enum PowerUpValue
 {
     PowerUpSpeed,
     PowerUpHP,
-    PowerUpStrength
+    PowerUpStrength,
+    PowerUpFire,
+    PowerUpShotgun
 }
 
 public class PowerUps : MonoBehaviour
@@ -20,7 +22,7 @@ public class PowerUps : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag != "Player") return;
 
@@ -35,6 +37,15 @@ public class PowerUps : MonoBehaviour
         else if (powerUp == PowerUpValue.PowerUpStrength)
         {
             collision.gameObject.GetComponent<Gun>().damage += 1;
+        }
+        else if (powerUp == PowerUpValue.PowerUpFire)
+        {
+            collision.gameObject.GetComponent<Gun>().fireRate /= 1.1f;
+        }
+        else if (powerUp == PowerUpValue.PowerUpShotgun)
+        {
+            collision.gameObject.GetComponent<Gun>().accuracy -= 10;
+            collision.gameObject.GetComponent<Gun>().numberOfBullets += 1;
         }
 
         Destroy(gameObject);
