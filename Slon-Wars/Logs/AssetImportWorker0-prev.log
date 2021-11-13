@@ -15,11 +15,11 @@ C:/Users/adams/OneDrive/Documents/GitHub/Slon-Wars-Return-of-the-Joni/Slon-Wars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61244
+55526
 Successfully changed project path to: C:/Users/adams/OneDrive/Documents/GitHub/Slon-Wars-Return-of-the-Joni/Slon-Wars
 C:/Users/adams/OneDrive/Documents/GitHub/Slon-Wars-Return-of-the-Joni/Slon-Wars
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 323.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -35,336 +35,480 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005647 seconds.
+Registered in 0.005608 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.739 seconds
+- Completed reload, in  3.299 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2739ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (3300ms)
+		BeginReloadAssembly (357ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1277ms)
-			LoadAssemblies (144ms)
+		EndReloadAssembly (1461ms)
+			LoadAssemblies (347ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (479ms)
+			SetupTypeCache (647ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (438ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013284 seconds.
+Registered in 0.013294 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000210F2324030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000015248D63830 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F23EFD30 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000152454F53A0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2D20C30 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000015248A14020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2BC8090 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015248614720 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F57E4030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000015248629D30 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4707230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000015245A572D0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F467C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000152456B9040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4DE1E20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000015248A14020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F467C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4DE1E20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000015248A14020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4656230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000015247842230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4656230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000015247842230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F576C030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015248192C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4948020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000015245E93020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2324030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000015248D63830 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F491B230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000015245D73020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2725ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (2194ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (724ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (876ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (245ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 6.060000 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.149800 ms MarkObjects: 5.406400 ms  DeleteObjects: 0.106400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/LevelRooms/Wall.prefab
+  artifactKey: Guid(733b3a3019128ea4ba387131092e68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Wall.prefab using Guid(733b3a3019128ea4ba387131092e68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592d05bd9fa8a0a7dac5112b9528655a') in 0.174845 seconds 
+  Import took 0.181069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Prefabs/LevelRooms/Room.prefab
+  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfdbd6f82c7b0ea191ddcc52c70a4dc') in 0.080864 seconds 
+  Import took 0.100599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Prefabs/Enemies/Tactical Enemy.prefab
+  artifactKey: Guid(0e7c682930af95d4f82bca56643c88b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Tactical Enemy.prefab using Guid(0e7c682930af95d4f82bca56643c88b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dc1c52e3ad17bfd1fed1ba791d39df') in 0.088539 seconds 
+  Import took 0.096490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Scripts/Level Scripts/RoomScript.cs
+  artifactKey: Guid(582d04cba4d6f72438a71b59d5289184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/RoomScript.cs using Guid(582d04cba4d6f72438a71b59d5289184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758a026ffaaa95658acc37059ec0c0b5') in 0.052581 seconds 
+  Import took 0.064547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/LevelRooms/Wall With Door.prefab
+  artifactKey: Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Wall With Door.prefab using Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb6db95d8d1cbb534a37ed7e7813711') in 0.063261 seconds 
+  Import took 0.070758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Prefabs/LevelRooms/Level.prefab
+  artifactKey: Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Level.prefab using Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c2c718217df273fb2e1aa3120a0393') in 0.037287 seconds 
+  Import took 0.045555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Prefabs/Enemies/Random Enemy.prefab
+  artifactKey: Guid(28c07ddb82961914ca03c7597902f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Random Enemy.prefab using Guid(28c07ddb82961914ca03c7597902f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6625d3c7b04914bdb6525e27685ce095') in 0.078953 seconds 
+  Import took 0.089002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.684510 seconds.
+  path: Assets/Scripts/Level Scripts/RoomScript.cs
+  artifactKey: Guid(582d04cba4d6f72438a71b59d5289184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/RoomScript.cs using Guid(582d04cba4d6f72438a71b59d5289184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90492bf70486b06572fa886be65cc311') in 0.026604 seconds 
+  Import took 0.035314 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524B4E7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249232B40 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249001020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249001020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152455BC020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249001020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E3F410 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249001020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249001020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249001020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152455BC020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E3F410 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245BC8C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524BDACF40 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.139 seconds
+- Completed reload, in  2.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3141ms)
-		BeginReloadAssembly (473ms)
+	ReloadAssembly (2611ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2156ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (750ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (808ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (513ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 7.454600 ms (FindLiveObjects: 0.289600 ms CreateObjectMapping: 0.105900 ms MarkObjects: 7.006200 ms  DeleteObjects: 0.050000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.748528 seconds.
+  path: Assets/Prefabs/LevelRooms/Room.prefab
+  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b80cc0b6eabc1b96c279814c30053b6') in 0.099630 seconds 
+  Import took 0.107772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.733392 seconds.
+  path: Assets/Prefabs/LevelRooms/Room.prefab
+  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca36b3cb0a9d0358186137153a6bb855') in 0.030302 seconds 
+  Import took 0.036958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.891941 seconds.
+  path: Assets/Prefabs/LevelRooms/Room.prefab
+  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47dbfe1db900c97294b962dbb04ea00') in 0.037767 seconds 
+  Import took 0.049524 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524834D990 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248FD60E0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245CF2030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248C7E020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E3F410 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248C7E020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152454159B0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456E7250 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E93020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245BC8C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015247FBB010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2682ms)
+		BeginReloadAssembly (371ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (2106ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (751ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 8.474800 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.181700 ms MarkObjects: 7.318500 ms  DeleteObjects: 0.451700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.675862 seconds.
+  path: Assets/Scripts/Level Scripts/LevelController1.cs
+  artifactKey: Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/LevelController1.cs using Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b88dfc4e2f687b2073281e94759be56') in 0.031531 seconds 
+  Import took 0.038321 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524860D040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248A788D0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524ADEA040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245FB3020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B733D70 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152450EAC20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524ADEA040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E93020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248192C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152492A4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3455ms)
+		BeginReloadAssembly (393ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2443ms)
-			LoadAssemblies (275ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2877ms)
+			LoadAssemblies (413ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (805ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (1055ms)
+			SetupTypeCache (937ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (237ms)
+			SetupLoadedEditorAssemblies (1019ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (805ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (294ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (25ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.2 MB.
-System memory in use after: 71.3 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2006.
-Total: 4.623500 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.083900 ms MarkObjects: 4.193200 ms  DeleteObjects: 0.104700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(894788737ddba854a9ed32d4e74d4eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(894788737ddba854a9ed32d4e74d4eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e70ce3fd6fa7f73ada2e749ff6b03d') in 0.190062 seconds 
-  Import took 0.197273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(611d6057e4e4ff04589f2aef17a8eb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(611d6057e4e4ff04589f2aef17a8eb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc55865dc054517e338007eb9c347f93') in 0.006166 seconds 
-  Import took 0.012139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Scenes/Adam.unity
-  artifactKey: Guid(c065b8159f76d9e4c9a55367f9e5f14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Adam.unity using Guid(c065b8159f76d9e4c9a55367f9e5f14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8e85f44124da5209867ebdbcec7ea9') in 0.006645 seconds 
-  Import took 0.011975 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010753 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7F870A0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F852C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F852C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5124220 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2331EB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F852C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8B7C7C0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8BA4DD0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2530830 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F852C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4628020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1E6BD50 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.195 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3197ms)
-		BeginReloadAssembly (620ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (127ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (167ms)
-		EndReloadAssembly (2332ms)
-			LoadAssemblies (291ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (831ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (879ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (194ms)
-				ProcessInitializeOnLoadAttributes (622ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2015.
-Total: 7.206400 ms (FindLiveObjects: 0.489600 ms CreateObjectMapping: 0.323700 ms MarkObjects: 6.350300 ms  DeleteObjects: 0.040400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 64.878410 seconds.
-  path: Assets/Scripts/Level Scripts
-  artifactKey: Guid(66738d6ddac47764ab161605d7630456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level Scripts using Guid(66738d6ddac47764ab161605d7630456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c26ae88bead608f47990f36686980c5') in 0.016905 seconds 
-  Import took 0.023825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.767859 seconds.
-  path: Assets/Scripts/Level Scripts/LevelCreator.cs
-  artifactKey: Guid(f722243462df3754ba858dc239768e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level Scripts/LevelCreator.cs using Guid(f722243462df3754ba858dc239768e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c59c1fc6c5a8d93f8c1bd707f68bec') in 0.073970 seconds 
-  Import took 0.085503 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013401 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F2A07020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8FC8F10 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7BDEA20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F852C020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4AA4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7BDEA20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2331EB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7BDEA20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2B9A020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7BDEA20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5F6F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F15C7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4AA4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F4550080 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2A07020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1E6BD50 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.144 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3145ms)
-		BeginReloadAssembly (261ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (2686ms)
-			LoadAssemblies (228ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (991ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (195ms)
-			SetupLoadedEditorAssemblies (968ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (677ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 74.4 MB.
 System memory in use after: 74.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2018.
-Total: 17.805600 ms (FindLiveObjects: 1.678500 ms CreateObjectMapping: 0.636600 ms MarkObjects: 15.387900 ms  DeleteObjects: 0.097800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 6.083800 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.091200 ms MarkObjects: 5.701500 ms  DeleteObjects: 0.035100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -378,521 +522,753 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.784999 seconds.
-  path: Assets/Scripts/Level Scripts/LevelCreator.cs
-  artifactKey: Guid(f722243462df3754ba858dc239768e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level Scripts/LevelCreator.cs using Guid(f722243462df3754ba858dc239768e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b1f7110023a9279537f2d5d79053d3') in 0.046709 seconds 
-  Import took 0.056377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.735480 seconds.
-  path: Assets/Scripts/Level Scripts/Room.cs
-  artifactKey: Guid(69ac65c59b12f834495664cb7fc1dd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level Scripts/Room.cs using Guid(69ac65c59b12f834495664cb7fc1dd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394106a1c7dde1c19e7093f5129a06b6') in 0.012719 seconds 
-  Import took 0.019485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.649107 seconds.
-  path: Assets/Scripts/Level Scripts/Room.cs
-  artifactKey: Guid(69ac65c59b12f834495664cb7fc1dd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level Scripts/Room.cs using Guid(69ac65c59b12f834495664cb7fc1dd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57258a1524f463b96a11b9c9be8605bf') in 0.016377 seconds 
-  Import took 0.024569 seconds .
+  Time since last request: 27.785473 seconds.
+  path: Assets/Scripts/Level Scripts/LevelController1.cs
+  artifactKey: Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/LevelController1.cs using Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1198549f3918e0f64e5a724624f576c') in 0.050410 seconds 
+  Import took 0.057963 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011635 seconds.
+Registered in 0.007241 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000210CA9F65F0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001524860D040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7923CA0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000015245D77890 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5EA7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F274A020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210CA9F65F0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001524593A700 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2B78010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000015245DA3080 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F632B030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001524BD8CF10 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5EA7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8ED1F50 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001524ADCA030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2B78010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2530830 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5EA7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2BC1230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001524593A700 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F82F9010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000015248D88020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2BC1230 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000015248192C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1E6BD50 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000152492A4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2605ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2144ms)
+			LoadAssemblies (299ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (729ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (774ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (514ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 7.030500 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.105100 ms MarkObjects: 6.552100 ms  DeleteObjects: 0.041600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025088 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524B4E7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245321880 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524ADEA050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524C3D0040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524BD8CF10 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248D68010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245BC8C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152492A4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2892ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (2399ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1041ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (832ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 4.337600 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.073700 ms MarkObjects: 4.031500 ms  DeleteObjects: 0.033300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007138 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524860D040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B17D4A0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152450D6BB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524ADEA050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152452713B0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456B9040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524860D040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524BF52020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2471ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2136ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (723ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (532ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 5.890400 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.129200 ms MarkObjects: 5.357200 ms  DeleteObjects: 0.054600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.523731 seconds.
+  path: Assets/Scripts/Level Scripts/LevelController1.cs
+  artifactKey: Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/LevelController1.cs using Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44e249d691fb94bc1753b436602e99c') in 0.009765 seconds 
+  Import took 0.014356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.175742 seconds.
+  path: Assets/Scripts/Level Scripts/LevelController.cs
+  artifactKey: Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/LevelController.cs using Guid(b78893150ddecfa41a866c28118d7516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f61047453ec9c3035b2fc8ef4eb64') in 0.072504 seconds 
+  Import took 0.085370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032513 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524B4E7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249460490 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524AB26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524ADEA050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490E9020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B733D70 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490E9020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248D68010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245EBB630 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152492A4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3737ms)
+		BeginReloadAssembly (458ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2897ms)
+			LoadAssemblies (338ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (824ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (169ms)
+			SetupLoadedEditorAssemblies (1292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (341ms)
+				ProcessInitializeOnLoadAttributes (859ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2029.
+Total: 6.434300 ms (FindLiveObjects: 0.442100 ms CreateObjectMapping: 0.138400 ms MarkObjects: 5.807100 ms  DeleteObjects: 0.043800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.987629 seconds.
+  path: Assets/Prefabs/LevelRooms/Level.prefab
+  artifactKey: Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelRooms/Level.prefab using Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc6125ea372c5bd55bbefd882e1d992') in 0.097103 seconds 
+  Import took 0.107206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.342483 seconds.
+  path: Assets/Scenes/Daniel.unity
+  artifactKey: Guid(462a4fded004e7b49a572994ca2ca9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Daniel.unity using Guid(462a4fded004e7b49a572994ca2ca9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab12191ea0c32eee5b7d6b2f6319ac91') in 0.061600 seconds 
+  Import took 0.071797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009822 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015247FD5030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B733DC0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490E9020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524ADEA050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B852DA0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152452713B0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490E9020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B852DA0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245E71010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248DE1040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245EBB630 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015249555020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.602 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2604ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2170ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (781ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2031.
+Total: 7.350100 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.132300 ms MarkObjects: 6.708600 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.005017 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(d12f6c3006ea23b4a9c762d373622f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(d12f6c3006ea23b4a9c762d373622f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94451386e6b131dd664f083287d03513') in 0.240643 seconds 
+  Import took 0.248300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.687409 seconds.
+  path: Assets/Scenes/Adam.unity
+  artifactKey: Guid(c065b8159f76d9e4c9a55367f9e5f14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Adam.unity using Guid(c065b8159f76d9e4c9a55367f9e5f14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931f3f51f888b25b47e92d173cd5f02d') in 0.045001 seconds 
+  Import took 0.066291 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524834D990 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152498024F0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524AE9C010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245D1E040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524C54D3E0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152452713B0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524AE9C010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456EEFB0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245D1E040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B733D70 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490F1030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152492A4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.834 seconds
+- Completed reload, in  2.328 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2835ms)
-		BeginReloadAssembly (318ms)
+	ReloadAssembly (2329ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (137ms)
-		EndReloadAssembly (2347ms)
-			LoadAssemblies (236ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1926ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (838ms)
+			SetupTypeCache (661ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (133ms)
-			SetupLoadedEditorAssemblies (873ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (247ms)
-				ProcessInitializeOnLoadAttributes (556ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2020.
-Total: 9.320800 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.179300 ms MarkObjects: 8.588500 ms  DeleteObjects: 0.044400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 40.702291 seconds.
-  path: Assets/Prefabs/LevelRooms/Level.prefab
-  artifactKey: Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Level.prefab using Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a9962ac5807ab9838744b895f58a31') in 0.055596 seconds 
-  Import took 0.061841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000521 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534ca4f26e350d8e20800ae9b9f289bb') in 0.033464 seconds 
-  Import took 0.044130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.126077 seconds.
-  path: Assets/Prefabs/LevelRooms/Level.prefab
-  artifactKey: Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Level.prefab using Guid(94f92028868bd9c47be4b9e26629848e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bca423bea9bdb6a1a4bd272338a5b47') in 0.041022 seconds 
-  Import took 0.049226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.257861 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3966b6af21cec8e056a634c003b8dc42') in 0.031311 seconds 
-  Import took 0.048426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.996081 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e2bd31c3bf07a865452856d70526cf') in 0.025996 seconds 
-  Import took 0.036878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.568576 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f7f6b9c05770a59b1fa6933f3b7964') in 0.030871 seconds 
-  Import took 0.046293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.991576 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4021b236c91a0f04863bc6dd956e8ba0') in 0.041423 seconds 
-  Import took 0.053597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.657789 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2f83a4a583d3358a8fa5cb08b796f6') in 0.061886 seconds 
-  Import took 0.076818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.142178 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb6481c9f3442ca449a9e0829b2dc1d') in 0.027471 seconds 
-  Import took 0.037328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.412744 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b333de96245efc7dbb41ed3561915bf4') in 0.051938 seconds 
-  Import took 0.068161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.192799 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46496249ca74581aaf865ca06f4989ac') in 0.027734 seconds 
-  Import took 0.036881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.995453 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76e81a4db10c52c2cef5b3fb7cd5fb7') in 0.047892 seconds 
-  Import took 0.066068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.855135 seconds.
-  path: Assets/Prefabs/LevelRooms/Wall.prefab
-  artifactKey: Guid(733b3a3019128ea4ba387131092e68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Wall.prefab using Guid(733b3a3019128ea4ba387131092e68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778bd6cd0cafaba6016c9a9a6da7b4ef') in 0.295668 seconds 
-  Import took 0.309161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.879454 seconds.
-  path: Assets/Prefabs/LevelRooms/Wall 1.prefab
-  artifactKey: Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Wall 1.prefab using Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa585a4f015a42fe6334c2159e45228') in 0.099357 seconds 
-  Import took 0.112153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.167273 seconds.
-  path: Assets/Prefabs/LevelRooms/Wall With Door.prefab
-  artifactKey: Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Wall With Door.prefab using Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff125b462e5cc6253f47d9808e19f043') in 0.098173 seconds 
-  Import took 0.113801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.037254 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1d368f1a2c5ac4dde895760b21313c') in 0.065613 seconds 
-  Import took 0.086306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.868984 seconds.
-  path: Assets/Prefabs/LevelRooms/Wall With Door.prefab
-  artifactKey: Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Wall With Door.prefab using Guid(b24d27028eb31cf40a93c7ea9d8afdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a91938ac9c1add236f676c21f759458') in 0.140723 seconds 
-  Import took 0.153278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.161574 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517f2bbf4b10e57623e24f3d78d149bd') in 0.093628 seconds 
-  Import took 0.118529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.534040 seconds.
-  path: Assets/Prefabs/LevelRooms/Room.prefab
-  artifactKey: Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelRooms/Room.prefab using Guid(640de77d73268484a858934585cd25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4c6335aa6b06219cc96d2e1547d25f') in 0.066985 seconds 
-  Import took 0.083730 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011680 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F5AB2010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F64578D0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1F94030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F6670050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F78753A0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5CFF030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1F94030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2B9A020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5C07030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5F81410 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7BCF030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8460020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2BC2630 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1E6BD50 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.841 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1841ms)
-		BeginReloadAssembly (187ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (1553ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (488ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (571ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 5.592600 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.090300 ms MarkObjects: 5.193400 ms  DeleteObjects: 0.043500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011624 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F5AB2010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5D23480 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8E81010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F6670050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F50D6020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F24DC9D0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8E91B90 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8E81010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2B9A020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5C07030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5F81410 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8AE2010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F242F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F82F9010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5AB2010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F1E6BD50 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.864 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1865ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1610ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (487ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (615ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (27ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
-System memory in use after: 74.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 4.880600 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.097900 ms MarkObjects: 4.482200 ms  DeleteObjects: 0.033100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009782 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210F5AB2010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2BF94C0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8E81010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F6670050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F6689010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F78753A0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8B6E790 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8E81010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F2B9A020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F78753A0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F28D11C0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F7BCF030 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F6689010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F60AD040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F5AB2010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210F8C36020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.564 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2565ms)
-		BeginReloadAssembly (253ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2161ms)
-			LoadAssemblies (239ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (697ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (895ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (728ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (307ms)
-				ProcessInitializeOnLoadAttributes (520ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (22ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.4 MB.
+System memory in use before: 74.5 MB.
 System memory in use after: 74.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2027.
-Total: 7.598000 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.146700 ms MarkObjects: 7.025900 ms  DeleteObjects: 0.045200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 8.026100 ms (FindLiveObjects: 0.328900 ms CreateObjectMapping: 0.103100 ms MarkObjects: 7.552200 ms  DeleteObjects: 0.039800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524834D990 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015247FED060 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152455B4010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248DB8040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B852DA0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524D178020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152455B4010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B852DA0 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152455B4010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248DE1040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245BC8C20 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152492A4020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1790ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1533ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (486ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 5.153300 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.139100 ms MarkObjects: 4.580200 ms  DeleteObjects: 0.045900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012577 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001524B4E7010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524AF49520 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490E9020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248F0F020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248DB8040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524C9AA040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524D178020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152490E9020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015248B26020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524C9AA040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245A86010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152455B4010 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524B90F050 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152456B9040 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015245EBB630 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001524BF52020 doesn't match image C:\Users\adams\OneDrive\Documents\GitHub\Slon-Wars-Return-of-the-Joni\Slon-Wars\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.408 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2409ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2006ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (660ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (802ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (532ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 7.395100 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.110300 ms MarkObjects: 6.744200 ms  DeleteObjects: 0.216800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
