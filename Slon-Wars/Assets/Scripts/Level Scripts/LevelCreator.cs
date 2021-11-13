@@ -123,7 +123,7 @@ public class LevelCreator : MonoBehaviour
         string doorCode = CreateDoorDirectionCode(gridPoint);
         GameObject createdRoom = Instantiate(roomObj, new Vector3(worldPoint.x, worldPoint.y, 0), transform.rotation);
         createdRoom.transform.parent = this.gameObject.transform;
-        createdRoom.GetComponent<Room>().InitiliseValue(doorCode, (grid[gridPoint.x, gridPoint.y] == 2), (worldPoint == Vector2Int.zero));
+        createdRoom.GetComponent<RoomScript>().InitiliseValue(doorCode, (grid[gridPoint.x, gridPoint.y] == 2), (worldPoint == Vector2Int.zero));
     }
 
     private Vector2Int GridToWorldPos(Vector2Int gridPoint)

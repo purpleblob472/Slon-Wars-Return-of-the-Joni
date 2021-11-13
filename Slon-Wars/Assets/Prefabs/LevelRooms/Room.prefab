@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2967998152374244570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69ac65c59b12f834495664cb7fc1dd7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 582d04cba4d6f72438a71b59d5289184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   wallWithDoor: {fileID: 116930188828669259, guid: b24d27028eb31cf40a93c7ea9d8afdf0,
