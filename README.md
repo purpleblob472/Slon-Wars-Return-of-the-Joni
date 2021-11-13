@@ -14,5 +14,5 @@ OTHER
 --- en(2, 3) ---
 --- shoot ---
 enemy spawning
-camera movement
+--- camera movement ---
 UI
