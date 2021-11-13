@@ -10,7 +10,9 @@ repition
 sprites
 
 OTHER
-level gen
+--- level gen ---
 --- en(2, 3) ---
 --- shoot ---
+enemy spawning
+camera movement
 UI
