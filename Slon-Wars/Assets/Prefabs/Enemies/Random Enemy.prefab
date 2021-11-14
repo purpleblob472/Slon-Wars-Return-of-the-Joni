@@ -129,10 +129,10 @@ MonoBehaviour:
   bullet: {fileID: 6231678805520457339, guid: 894788737ddba854a9ed32d4e74d4eb6, type: 3}
   bulletSpawn: {fileID: 0}
   isEnemy: 1
-  fireRate: 2
+  fireRate: 1.6
   minfireRate: 0.2
   range: 2
-  accuracy: 180
+  accuracy: 160
   bulletSpeed: 5
   numberOfBullets: 1
   damage: 1
@@ -186,3 +186,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 2
+  percentChanceOfDrops: 25
+  powerUpDrops:
+  - {fileID: 8814382224188188802, guid: e8d425ea7ad64f645ac3a20c6655a2d5, type: 3}
+  - {fileID: 7335914261354382368, guid: 322912fed9c87e441afeb13315e44be7, type: 3}
+  - {fileID: 4087650216940941783, guid: bfa2e8cbc654bc6409e8c82dcbf040bd, type: 3}
+  - {fileID: 1615567202571856738, guid: c23090e4f7688334bb0a94fcd3bbd97b, type: 3}
+  - {fileID: 167760084200371730, guid: 906b7a975da1bb948b9f4b7b93acfda4, type: 3}
