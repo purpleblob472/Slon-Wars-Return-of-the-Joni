@@ -9,9 +9,12 @@ public class LevelController : MonoBehaviour
 
     }
 
-    public void CheckEnemies()
+    public void CheckEnemies(bool onEnemyDeath = false)
     {
-        if (GameObject.FindGameObjectWithTag("Enemy"))
+        int ammountOfEnemiesAlive = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        ammountOfEnemiesAlive -= onEnemyDeath ? 1 : 0;
+
+        if (ammountOfEnemiesAlive > 0)
             CloseAllDoors();
         else
             OpenAllDoors();

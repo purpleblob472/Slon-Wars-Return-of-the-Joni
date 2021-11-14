@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
 {
     public int hp;
 
-    
+
     public void TakeDamage(GameObject bullet)
     {
         hp -= bullet.GetComponent<Bullet>().damage;
@@ -17,6 +17,11 @@ public class Health : MonoBehaviour
             {
                 print("game Over");
                 Application.Quit();
+            }
+            else
+            {
+                LevelController level = GameObject.FindGameObjectWithTag("GameController").GetComponent<LevelController>();
+                level.CheckEnemies(true);
             }
             Destroy(gameObject);
         }
