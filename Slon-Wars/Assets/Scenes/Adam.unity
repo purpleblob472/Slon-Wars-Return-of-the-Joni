@@ -232,6 +232,16 @@ PrefabInstance:
       propertyPath: hp
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7401433386351063047, guid: d12f6c3006ea23b4a9c762d373622f8b,
+        type: 3}
+      propertyPath: fireRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7401433386351063047, guid: d12f6c3006ea23b4a9c762d373622f8b,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7401433386351063065, guid: d12f6c3006ea23b4a9c762d373622f8b,
         type: 3}
       propertyPath: m_Name
