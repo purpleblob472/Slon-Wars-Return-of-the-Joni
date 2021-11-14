@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
     {
         hp -= bullet.GetComponent<Bullet>().damage;
 
-        if (hp == 0)
+        if (hp <= 0)
         {
             if (gameObject.tag == "Player")
             {
