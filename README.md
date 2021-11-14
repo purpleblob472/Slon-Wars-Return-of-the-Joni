@@ -16,5 +16,5 @@ OTHER
 --- shoot ---
 --- enemy spawning ---
 --- camera movement ---
-death screen
-next level door
+--- death screen ---
+--- next level door ---
