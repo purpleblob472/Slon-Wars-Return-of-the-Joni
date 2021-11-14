@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D selfRig;
     public Camera cam;
     Vector2 mousePos;
-    public int HP = 10;
     private Gun gun;
     public float stregth;
 
