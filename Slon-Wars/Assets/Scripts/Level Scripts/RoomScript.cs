@@ -15,6 +15,12 @@ public class RoomScript : MonoBehaviour
     public GameObject wallWithDoor;
     public GameObject wall;
 
+    public int minEmenySpawns = 1;
+    public int maxEmenySpawns = 5;
+
+    public GameObject[] enemies;
+    public GameObject[] bosses;
+
     public void InitiliseValue(string doorCode, bool isBoss, bool isStart)
     {
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraController>();
@@ -54,16 +60,29 @@ public class RoomScript : MonoBehaviour
         if (enemiesSpawend) return;
 
         if(!isBoss)
-        {
-            Debug.Log("spawn enemies");
-        } 
+            SpawnEnemies();
         else
-        {
-            Debug.Log("spawn boss");
-        }
+            SpawnBoss();
 
         enemiesSpawend = true;
         level.CheckEnemies();
+    }
+
+    private void SpawnEnemies()
+    {
+        int amountOfEnemies = Random.Range(minEmenySpawns, maxEmenySpawns + 1);
+
+        for (int i = 0; i < amountOfEnemies; i++)
+        {
+            int enemyToSpawn = Random.Range(0, enemies.Length);
+            Instantiate(enemies[enemyToSpawn], transform.position, transform.rotation);
+        }
+    }
+
+    private void SpawnBoss()
+    {
+        int bossToSpawn = Random.Range(0, bosses.Length);
+        Instantiate(bosses[bossToSpawn], transform.position, transform.rotation);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

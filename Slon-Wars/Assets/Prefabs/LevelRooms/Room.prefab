@@ -107,6 +107,14 @@ MonoBehaviour:
   wallWithDoor: {fileID: 116930188828669259, guid: b24d27028eb31cf40a93c7ea9d8afdf0,
     type: 3}
   wall: {fileID: 987834681827054754, guid: 733b3a3019128ea4ba387131092e68a2, type: 3}
+  minEmenySpawns: 1
+  maxEmenySpawns: 5
+  enemies:
+  - {fileID: 2261035487956133769, guid: 28c07ddb82961914ca03c7597902f54c, type: 3}
+  - {fileID: 627194356278465815, guid: 0e7c682930af95d4f82bca56643c88b2, type: 3}
+  bosses:
+  - {fileID: 2261035487956133769, guid: 28c07ddb82961914ca03c7597902f54c, type: 3}
+  - {fileID: 627194356278465815, guid: 0e7c682930af95d4f82bca56643c88b2, type: 3}
 --- !u!1 &4949324236621547747
 GameObject:
   m_ObjectHideFlags: 0
