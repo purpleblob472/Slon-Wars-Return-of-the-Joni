@@ -113,8 +113,7 @@ MonoBehaviour:
   - {fileID: 2261035487956133769, guid: 28c07ddb82961914ca03c7597902f54c, type: 3}
   - {fileID: 627194356278465815, guid: 0e7c682930af95d4f82bca56643c88b2, type: 3}
   bosses:
-  - {fileID: 2261035487956133769, guid: 28c07ddb82961914ca03c7597902f54c, type: 3}
-  - {fileID: 627194356278465815, guid: 0e7c682930af95d4f82bca56643c88b2, type: 3}
+  - {fileID: 6540407972691064685, guid: 9760bd5845b004b4c852e71bac2f82db, type: 3}
 --- !u!1 &4949324236621547747
 GameObject:
   m_ObjectHideFlags: 0

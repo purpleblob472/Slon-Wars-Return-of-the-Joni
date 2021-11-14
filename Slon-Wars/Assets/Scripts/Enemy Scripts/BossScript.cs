@@ -15,7 +15,6 @@ public class BossScript : MonoBehaviour
         gun = this.GetComponent<Gun>();
         body = this.GetComponent<Rigidbody2D>();
         maxhp = gameObject.GetComponent<Health>().hp;
-
     }
         // Update is called once per frame
     void Update()
@@ -24,6 +23,9 @@ public class BossScript : MonoBehaviour
         if (gameObject.GetComponent<Health>().hp <= (maxhp / 2) && !supersaiyan)
         {
             gameObject.GetComponent<Gun>().fireRate /= 2f;
+            gameObject.GetComponent<Gun>().numberOfBullets *= 1.5f;
+            gameObject.GetComponent<Gun>().range *= 2;
+            gameObject.GetComponent<Gun>().bulletSpeed /= 1.5f;
             supersaiyan = true;
         }
     }

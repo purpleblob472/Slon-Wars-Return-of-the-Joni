@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 6540407972691064693}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Boss
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,8 +167,8 @@ MonoBehaviour:
   minfireRate: 0.2
   range: 2
   accuracy: 0
-  bulletSpeed: 5
-  numberOfBullets: 100
+  bulletSpeed: 8
+  numberOfBullets: 30
   damage: 1
 --- !u!114 &6540407972691064690
 MonoBehaviour:
@@ -195,4 +195,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2804e59084bdb409b0700735e9b1bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 2
+  hp: 50
+  percentChanceOfDrops: 100
+  powerUpDrops:
+  - {fileID: 8814382224188188802, guid: e8d425ea7ad64f645ac3a20c6655a2d5, type: 3}
+  - {fileID: 7335914261354382368, guid: 322912fed9c87e441afeb13315e44be7, type: 3}
+  - {fileID: 4087650216940941783, guid: bfa2e8cbc654bc6409e8c82dcbf040bd, type: 3}
+  - {fileID: 1615567202571856738, guid: c23090e4f7688334bb0a94fcd3bbd97b, type: 3}
+  - {fileID: 167760084200371730, guid: 906b7a975da1bb948b9f4b7b93acfda4, type: 3}
