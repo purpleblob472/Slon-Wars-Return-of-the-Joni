@@ -11,10 +11,14 @@ public class Bullet : MonoBehaviour
     [HideInInspector]
     public int damage = 1;
 
+    void Start()
+    {
+        body = GetComponent<Rigidbody2D>();
+    }
+
     //Initiliser for gun script to pass values
     public void SetValues(float speed, bool isPlayer, Vector2 shootersVelocity, float timeAlive, int damage)
     {
-        body = GetComponent<Rigidbody2D>();
         this.speed = speed;
         this.isPlayer = isPlayer;
         this.shootersVelocity = shootersVelocity;
