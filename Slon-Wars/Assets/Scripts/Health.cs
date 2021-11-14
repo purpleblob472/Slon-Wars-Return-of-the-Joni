@@ -16,7 +16,9 @@ public class Health : MonoBehaviour
             if (gameObject.tag == "Player")
             {
                 print("game Over");
-                Application.Quit();
+                //Add score to game over text
+                GameObject gameOverScreen = GameObject.FindGameObjectWithTag("GameOver");
+                gameOverScreen.GetComponent<Canvas>().enabled = true;
             }
             else
             {
