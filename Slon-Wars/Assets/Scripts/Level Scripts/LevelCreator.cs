@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LevelCreator : MonoBehaviour
 {
-
     public int maxRooms;
     [HideInInspector]
     public int targetRooms;

@@ -104,9 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582d04cba4d6f72438a71b59d5289184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallWithDoor: {fileID: 116930188828669259, guid: b24d27028eb31cf40a93c7ea9d8afdf0,
+  wallWithDoor: {fileID: 4427995815332817679, guid: b24d27028eb31cf40a93c7ea9d8afdf0,
     type: 3}
-  wall: {fileID: 987834681827054754, guid: 733b3a3019128ea4ba387131092e68a2, type: 3}
+  wall: {fileID: 4705429174791300100, guid: 733b3a3019128ea4ba387131092e68a2, type: 3}
   minEmenySpawns: 1
   maxEmenySpawns: 5
   enemies:

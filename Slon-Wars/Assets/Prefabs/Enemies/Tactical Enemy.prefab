@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6172394221842824919}
   - component: {fileID: 1227434305421977092}
   - component: {fileID: 5694938264377936093}
+  - component: {fileID: 2953372009532031249}
   m_Layer: 0
   m_Name: Tactical Enemy
   m_TagString: Enemy
@@ -153,10 +154,12 @@ MonoBehaviour:
   bulletSpawn: {fileID: 0}
   isEnemy: 1
   fireRate: 2
+  minfireRate: 0.2
   range: 2
   accuracy: 180
   bulletSpeed: 5
   numberOfBullets: 1
+  damage: 1
 --- !u!114 &5694938264377936093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,3 +172,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f0177196704a394e83db5a92cbad754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+--- !u!114 &2953372009532031249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627194356278465815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2804e59084bdb409b0700735e9b1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 2
