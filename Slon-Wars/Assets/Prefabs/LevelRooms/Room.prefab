@@ -107,6 +107,10 @@ MonoBehaviour:
   wallWithDoor: {fileID: 4427995815332817679, guid: b24d27028eb31cf40a93c7ea9d8afdf0,
     type: 3}
   wall: {fileID: 4705429174791300100, guid: 733b3a3019128ea4ba387131092e68a2, type: 3}
+  nextLevelDoor: {fileID: 950153795565089005, guid: 06a6655294b7a6f4f92b13f79d139ad7,
+    type: 3}
+  bunchOfPowerUps: {fileID: 94971067168961247, guid: f6ff727b550aa63479dbc8938d14d35f,
+    type: 3}
   minEmenySpawns: 1
   maxEmenySpawns: 5
   enemies:

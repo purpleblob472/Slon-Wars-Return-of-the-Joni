@@ -14,6 +14,9 @@ public class RoomScript : MonoBehaviour
 
     public GameObject wallWithDoor;
     public GameObject wall;
+    public GameObject nextLevelDoor;
+
+    public GameObject bunchOfPowerUps;
 
     public int minEmenySpawns = 1;
     public int maxEmenySpawns = 5;
@@ -33,10 +36,13 @@ public class RoomScript : MonoBehaviour
 
         CreateWalls();
 
+        if (isBoss)
+            SpawnNextLevelDoor();
+
+        //Level generator can create a 1 room floor
+        //Spawn a treat for player if this happens
         if (isBoss && isStart)
-        {
-            Debug.Log("ONE ROOM FLOOR");
-        }
+            SpawnBunchOfPowerUps();
     }
 
     private void CreateWalls()
@@ -53,21 +59,6 @@ public class RoomScript : MonoBehaviour
         }
     }
 
-    private void PlayerMoved()
-    {
-        mainCamera.cameraPos = new Vector3(this.transform.position.x, this.transform.position.y, mainCamera.cameraPos.z);
-
-        if (enemiesSpawend) return;
-
-        if(!isBoss)
-            SpawnEnemies();
-        else
-            SpawnBoss();
-
-        enemiesSpawend = true;
-        level.CheckEnemies();
-    }
-
     private void SpawnEnemies()
     {
         int amountOfEnemies = Random.Range(minEmenySpawns, maxEmenySpawns + 1);
@@ -79,11 +70,24 @@ public class RoomScript : MonoBehaviour
         }
     }
 
+    private void SpawnNextLevelDoor()
+    {
+        GameObject spawnedDood = Instantiate(nextLevelDoor, this.transform.position, this.transform.rotation);
+        spawnedDood.transform.parent = this.transform;
+    }
+
     private void SpawnBoss()
     {
         int bossToSpawn = Random.Range(0, bosses.Length);
         Instantiate(bosses[bossToSpawn], transform.position, transform.rotation);
     }
+
+    private void SpawnBunchOfPowerUps()
+    {
+        GameObject spawnedTreat = Instantiate(bunchOfPowerUps, this.transform.position, this.transform.rotation);
+        spawnedTreat.transform.parent = this.transform;
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -91,5 +95,20 @@ public class RoomScript : MonoBehaviour
         {
             PlayerMoved();
         }
+    }
+
+    private void PlayerMoved()
+    {
+        mainCamera.cameraPos = new Vector3(this.transform.position.x, this.transform.position.y, mainCamera.cameraPos.z);
+
+        if (enemiesSpawend) return;
+
+        if (!isBoss)
+            SpawnEnemies();
+        else
+            SpawnBoss();
+
+        enemiesSpawend = true;
+        level.CheckEnemies();
     }
 }

@@ -6,14 +6,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D selfRig;
-    public Camera cam;
+    private Camera cam;
     Vector2 mousePos;
     private Gun gun;
-    public float stregth;
 
     // Start is called before the first frame update
     void Start()
     {
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         selfRig = GetComponent<Rigidbody2D>();
         gun = this.GetComponent<Gun>();
     }
@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
         {
             gun.Shoot();
         }
-
     }
 
     private void FixedUpdate()

@@ -28,6 +28,7 @@ public class LevelCreator : MonoBehaviour
 
     // --- Create Level Plan (Start) ---
 
+    //Place points on a grid indicating where rooms go
     private void CreateLevelPlan()
     {
         targetRooms = Random.Range(Mathf.RoundToInt(maxRooms / 2), maxRooms);
@@ -35,8 +36,10 @@ public class LevelCreator : MonoBehaviour
         Vector2Int centerOfGridPoint = new Vector2Int(centerOfGrid, centerOfGrid);
         Vector2Int lastRoom = Vector2Int.zero;
 
+        //Make first room in the center of the grid for player start
         MarkRoom(centerOfGridPoint);
 
+        //Place new room points at the 4 derections of each new room until no new rooms exist
         for (int i = 0; i < createdRoomGridPoints.Count; i++)
         {
             ExpandFromPoint(createdRoomGridPoints[i]);
@@ -51,6 +54,7 @@ public class LevelCreator : MonoBehaviour
         printGrid();
     }
 
+    //Places a point on the grid and indicates a new room was created
     private void MarkRoom(Vector2Int gridPoint)
     {
         createdRoomGridPoints.Add(gridPoint);
@@ -59,6 +63,7 @@ public class LevelCreator : MonoBehaviour
         Debug.Log("placing point: " + gridPoint + " number Of created rooms = " + numberOfRoomsCreated + "/" + targetRooms);
     }
 
+    //Randomly place new room points at the 4 derections of a point
     private void ExpandFromPoint(Vector2Int gridPoint)
     {
         Vector2Int[] expandDirections = { Vector2Int.down, Vector2Int.up, Vector2Int.left, Vector2Int.right };
@@ -102,6 +107,7 @@ public class LevelCreator : MonoBehaviour
 
     // --- Construct Level (Start) ---
 
+    //Goes through the planning grid and spawns room objects where needed
     private void ConstructLevel()
     {
         for (int i = 0; i < grid.GetLength(0); i++)
@@ -116,6 +122,8 @@ public class LevelCreator : MonoBehaviour
         }
     }
 
+    //Spawns room in calculated world position
+    //Passes identifying info to the room: what walls have doors, if its the boss room, if its the starting room
     private void CreateRoom(Vector2Int gridPoint)
     {
         Vector2Int worldPoint = GridToWorldPos(gridPoint);
@@ -125,6 +133,8 @@ public class LevelCreator : MonoBehaviour
         createdRoom.GetComponent<RoomScript>().InitiliseValue(doorCode, (grid[gridPoint.x, gridPoint.y] == 2), (worldPoint == Vector2Int.zero));
     }
 
+    //Make the center of the grid 0,0
+    //Times the grid by 20 as thats the size of the rooms
     private Vector2Int GridToWorldPos(Vector2Int gridPoint)
     {
         int centerOfGrid = Mathf.FloorToInt(gridSize / 2f);
