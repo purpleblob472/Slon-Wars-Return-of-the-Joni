@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     private float speed;
     private bool isPlayer;
     private Rigidbody2D body;
-    private Vector2 shootersVelocity;
+    private Vector2 shootersVelocity = Vector2.zero;
     [HideInInspector]
     public int damage = 1;
 
@@ -43,6 +43,11 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
         if (collision.CompareTag("Enemy") && isPlayer)
+        {
+            collision.gameObject.GetComponent<Health>().TakeDamage(this.gameObject);
+            Destroy(gameObject);
+        }
+        if (collision.CompareTag("Boss") && isPlayer)
         {
             collision.gameObject.GetComponent<Health>().TakeDamage(this.gameObject);
             Destroy(gameObject);
